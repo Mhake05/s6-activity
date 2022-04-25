@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Activity: CSS Introduction</title>
+
+        <link rel="stylesheet" type="text/css" href="./style.css">
+
     </head>
     <body>
 
@@ -9,14 +12,14 @@
 
         <!-- Different ways to include CSS -->
 <!-- 2. Add inline styling to a paragraph tag: change the font color to red -->
-        <p>Apply inline styling here.</p>
+        <p id="one">Apply inline styling here.</p>
 <!-- 3. Apply an internal styling to p tag: named the id attribute to "internal" and change the font color into orange  -->
-        <p>Apply internal styling here.</p>
+        <p id="two">Apply internal styling here.</p>
 
 <!-- 4. Create an index.css file -->
 
 <!-- 5. Apply an external styling to p tag: named the id attribute to "external" and change the font color into yellow -->
-        <p>Apply external styling here.</p>
+        <p id="three">Apply external styling here.</p>
 
 
  <!-- 6. Change the font-family to 'Verdana' and 20px font size to all elements using the universal selector.  -->
@@ -42,7 +45,7 @@
 
  <!-- 10. Change the border of the tools to be used list items using an attribute selectors. Change it to blue or rgb(157, 176, 209)-->
         <h3>Tools to be Used</h3>
-        <ol>
+        <ol id="tools">
             <li>Sublime Text</li>
             <li>Postman</li>
             <li>Heroku</li>
@@ -66,7 +69,7 @@
             </ul>
 
  <!-- 14. Change the alignment of the last paragraph using a generic sibling selector into center. -->
-            <p>Web development is a continuous process. Never stop learning and always look for ways to innovate.</p>
+            <p id="footer">Web development is a continuous process. Never stop learning and always look for ways to innovate.</p>
         </section>
 <!-- 15. Create a git repository named s06-A to gitlab and github -->
 <!-- 16. Go to the github > settings > Pages and copy the link hosted project -->

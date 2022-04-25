@@ -1,0 +1,52 @@
+* {
+	font-family: verdana;
+	font-size: 20px;
+
+}
+
+
+#one {
+	color: red;
+}
+
+#two {
+	color: orange;
+}
+
+#three {
+	color: yellow;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	text-transform: uppercase;
+
+}
+
+ol li {
+	background-color: #aed19d;
+}
+
+#tools li {
+	background-color: white;
+	border: 2px solid rgb(157, 176, 209);
+}
+
+img {
+	height: 20vh;
+	border-width: 0;
+	border-radius: 300px;
+}
+
+ul li {
+	letter-spacing: 10px;
+	list-style-type: none;
+}
+
+#footer {
+	text-align: center;
+}
+
